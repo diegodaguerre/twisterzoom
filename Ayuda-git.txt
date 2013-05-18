@@ -1,0 +1,4 @@
+Notas para empezar con git. 
+
+	Interactivo: http://try.github.com 
+	Español:     http://rogerdudler.github.io/git-guide/index.es.html
