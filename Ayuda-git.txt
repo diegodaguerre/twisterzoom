@@ -2,3 +2,9 @@ Notas para empezar con git.
 
 	Interactivo: http://try.github.com 
 	Español:     http://rogerdudler.github.io/git-guide/index.es.html
+
+Comandos comunes:
+	Configuro la cuenta que uso:	git config --global user.email "pablodav@gmail.com"
+	Agrego archivos			git add *.txt
+	Hago commit			git commit -m "agrego ayuda git"
+	Push!				git push origin master
