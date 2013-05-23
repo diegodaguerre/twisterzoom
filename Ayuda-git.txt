@@ -8,6 +8,7 @@ Comandos comunes:
 	Agrego archivos			git add *.txt
 	Hago commit			git commit -m "agrego ayuda git"
 	Push!				git push origin master
+	Sincronizar lo que está		git pull
 
 	Recordar password		git config --global credential.helper cache 
 		http://stackoverflow.com/questions/5343068/is-there-a-way-to-skip-password-typing-when-using-https-github
