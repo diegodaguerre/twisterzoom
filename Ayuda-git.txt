@@ -3,6 +3,8 @@ Notas para empezar con git.
 	Interactivo: http://try.github.com 
 	Español:     http://rogerdudler.github.io/git-guide/index.es.html
 		     http://git-scm.com/book/es
+Bajarse este repo: 
+					git clone https://github.com/diegodaguerre/twisterzoom.git
 
 Comandos comunes:
 	Configuro la cuenta que uso:	git config --global user.email "pablodav@gmail.com"
@@ -17,5 +19,6 @@ Comandos comunes:
 Branches (ramas)
 	Ver ramas creadas: 		git branch -a
 	Cambiar o crear rama:		git checkout ramaxxxx
+	push cuando cambié de rama ej: 	git push origin develop (para la rama develop) 
 
 Test
