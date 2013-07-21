@@ -1,0 +1,35 @@
+Estuve revisando como se reciben los datos online en el Yourview y concluí: 
+
+Datos de viento, empiezan con la palabra WIND, seguido de un número de entre 0 y 365 donde indica la dirección del viento. 
+Se supone que es: 
+0 Norte, 91,25 Este, 182,5 Sur, 273,75 Oeste. 
+
+Un ejemplo de la línea recibida: 
+WIND 6.1 271
+
+El número de velocidad del viento parece estar en m/s. 
+
+Luego se recibe una línea con todo el resto de los datos (cada 1min aproximadamente), la misma inicia con PTU: 
+PTU 	6.1   	6.3   	5.6   	67  	75  	65  	0.3   	1.6   	0.0   	1013.0	1013.1	1012.8	21   	112  	21   	0.0   	0.0   	0.0   	0.0   	0.0   	0.0   	0.0   	 
+
+Donde los 3 primeros son temperatura: 
+instant  1h	1 min
+6.1     6.3     5.6
+
+Los siguientes 3 son Humedad:
+67      75      65
+
+Punto de rocío: 
+0.3     1.6     0.0
+
+Presión en hPa:
+1013.0  1013.1  1012.8
+
+Radiación solar: 
+21      112     21
+
+Precipitación: 
+0.0     0.0     
+
+Estos no se de que son (los últimos): 
+0.0	0.0     0.0     0.0
