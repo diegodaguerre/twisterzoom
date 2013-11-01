@@ -17,4 +17,4 @@ def getValue(raw_line):
 	
 	print "RAW LINE: " + raw_line
 	
-	return values
+	#return values
