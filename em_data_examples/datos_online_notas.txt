@@ -5,7 +5,8 @@ Se supone que es:
 0 Norte, 91,25 Este, 182,5 Sur, 273,75 Oeste. 
 
 Un ejemplo de la línea recibida: 
-WIND 6.1 271
+      mps   grado 
+WIND 6.1    271
 
 El número de velocidad del viento parece estar en m/s. 
 
