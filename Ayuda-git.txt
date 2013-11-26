@@ -8,6 +8,8 @@ Bajarse este repo:
 
 Comandos comunes:
 	Configuro la cuenta que uso:	git config --global user.email "pablodav@gmail.com"
+	Recordar contraseña:		git config credential.helper store
+	quitar recordar contraseña:	git config --unset credential.helper
 	Agrego archivos			git add *.txt
 	Hago commit			git commit -m "agrego ayuda git"
 	Push!				git push origin master
