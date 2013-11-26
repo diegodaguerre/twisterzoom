@@ -13,8 +13,8 @@ entradas = [s]
 
 while num < 50:
     entrada, salida, errores = select.select(entrada, [], [])
-	data = s.recv(1024)
-	print 'Received', repr(data)
-	num = num +1
+    data = s.recv(1024)
+    print 'Received', repr(data)
+    num = num +1
 
 s.close()
