@@ -1,0 +1,2 @@
+
+[]Crear programa que conecte a el conversor serial por tcp y ver que sale. 
