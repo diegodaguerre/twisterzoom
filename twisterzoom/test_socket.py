@@ -13,7 +13,7 @@ entrada = [s]
 
 while num < 50:
     entrada, salida, errores = select.select(entrada, [], []) 
-    data = s.recv(4096)
+    data = s.recv(2048)
     print 'Received', repr(data)
     num = num +1
 
