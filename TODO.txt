@@ -1,2 +1,3 @@
 
-[]Crear programa que conecte a el conversor serial por tcp y ver que sale. 
+[x]Crear programa que conecte a el conversor serial por tcp y ver que sale. 
+[]Probar enviar un comando
