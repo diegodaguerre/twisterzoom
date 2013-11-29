@@ -1,3 +1,5 @@
 
 [x]Crear programa que conecte a el conversor serial por tcp y ver que sale. 
-[]Probar enviar un comando
+[x]Probar enviar un comando
+[]Probar hacer una grafica web para el viento. 
+[]Recibir los datos online (recv_socket.py 
