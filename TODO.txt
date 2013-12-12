@@ -1,5 +1,6 @@
 
 [x]Crear programa que conecte a el conversor serial por tcp y ver que sale. 
 [x]Probar enviar un comando
+[] Cambiar el get_value.py para que matchee los 4 tipos de raw_line diferentes que van a haber.
 []Probar hacer una grafica web para el viento. 
 []Recibir los datos online (recv_socket.py 
